@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    border: 1px solid black;
+    height: 27vh;
+    width: 1100px;
+    margin: auto;
+    background-image: url('/assets/388455-javascript-wallpaper-top-free-javascript-background.png');
+    background-size: cover;
+    box-shadow: 0px 0px 3px 0.65px rgb(140, 137, 137);
+    border: none;
+}
+
+.profile-picture{
+    border: 1px solid black;
+    height: 35vh;
+    width: 220px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: -75px;
+    background-image: url('/assets/uwp4328936.png');
+    background-size: cover;
+    border: none;
+    box-shadow: 0px 0px 10px 0.75px gray;
+}
+
+.profile_name h1{
+    margin: 0rem 5rem;
+    font-family: segoe ui;
+}
+
+hr{
+    margin: 1rem;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details .info{
+    display: inline-flex;
+}
+
+.followers{
+    margin: 1rem;
+}
+
+.followers h1{
+    font-size: 5rem;
+    font-family: calibri;
+    font-weight: 500;
+}
+
+.followers p{
+    font-family: Arial;
+}
+
+
+
+.posts{
+    margin: 1rem;
+}
+
+.posts h1{
+    font-size: 5rem;
+    font-family: calibri;
+    font-weight: 500;
+}
+
+.posts p{
+    font-family: Arial;
+}
+
+.btn{
+    margin: 0rem 2rem;
+}
+
+.btn button{
+    padding: 0.8rem 2rem;
+    border: none;
+    background: rgb(17, 17, 66);
+    color: white;
+    border-radius: 0.1rem;
+}
